@@ -2,24 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Needed for absolute positioning of arrows */
-  }
-  
+    position: relative; 
+}
   .nav-arrow  {
     cursor: pointer;
-    user-select: none; /* Prevents text selection when clicking arrows */
+    user-select: none; 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 2rem; /* Adjust size as necessary */
-    color: #CD5C5C; /* Adjust color to match the design */
+    font-size: 2rem; 
+    color: #CD5C5C; 
   }
-  
   .left-arrow {
-    left: 10px; /* Adjust distance from the left side */
+    left: 10px; 
   }
   
   .right-arrow {
-    right: 10px; /* Adjust distance from the right side */
+    right: 10px; 
   }
   
