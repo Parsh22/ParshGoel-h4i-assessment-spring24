@@ -1,0 +1,70 @@
+.artist-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD580; /* Replace with the exact color from the design */
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  
+  
+  
+  .artist-card {
+    background-color: #FFF8E1; /* Replace with the exact color from the design */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .artist-name {
+    font-size: 1.5em;
+    color: #333; /* Replace with the exact color from the design */
+    margin-bottom: 15px;
+  }
+  
+  .artist-minutes {
+    font-size: 1em;
+    color: #333; /* Replace with the exact color from the design */
+    margin-bottom: 15px;
+  }
+  
+  .artist-image-div{
+    margin: 20px 0;
+  }
+  
+  .artist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adjust if necessary to match the design */
+  }
+
+  .artist-top-songs{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .artist-top-songs h2 {
+    font-size: 1.2em;
+    color: #333; /* Replace with the exact color from the design */
+    margin-bottom: 10px;
+    }
+    
+    .artist-top-songs ol {
+    padding-left: 20px;
+    text-align: left;
+    }
+    
+    .artist-top-songs li {
+    font-size: 1em;
+    color: #666; /* Replace with the exact color from the design */
+    line-height: 1.6;
+    }
+    
+    
+  

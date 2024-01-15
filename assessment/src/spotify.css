@@ -1,1 +1,25 @@
-/* Add css styles for spotify.jsx in this file */
+.spotify-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for absolute positioning of arrows */
+  }
+  
+  .nav-arrow  {
+    cursor: pointer;
+    user-select: none; /* Prevents text selection when clicking arrows */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem; /* Adjust size as necessary */
+    color: #CD5C5C; /* Adjust color to match the design */
+  }
+  
+  .left-arrow {
+    left: 10px; /* Adjust distance from the left side */
+  }
+  
+  .right-arrow {
+    right: 10px; /* Adjust distance from the right side */
+  }
+  
