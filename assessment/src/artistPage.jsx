@@ -23,10 +23,6 @@ const ArtistPage = ({ artist }) => {
           </ul>
         </div>
       </div>
-      {/* <div className="navigation">
-        <div className="nav-arrow left-arrow">←</div>
-        <div className="nav-arrow right-arrow">→</div>
-      </div> */}
     </div>
   );
 };

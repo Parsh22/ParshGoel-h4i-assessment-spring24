@@ -4,10 +4,6 @@ import artists from "./artists.jsx";
 import "./spotify.css";
 import ArtistPage from "./artistPage";
 
-/* 
-This is the component for the entire page. You can make additional components as you please.
-Feel free to edit anything in this file except the name of the component.
-*/
 const Spotify = (props) => {
   const [currArtist, setCurrArtist] = useState(0);
 
